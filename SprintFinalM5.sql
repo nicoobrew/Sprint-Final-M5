@@ -6,8 +6,6 @@ GRANT ALL PRIVILEGES ON SoporteSprintM5.* TO 'adminSoporte'@'localhost';
 
 USE SoporteSprintM5;
 
-drop table if exists Usuario, Operario, Soporte;
-
 -- Se contruyen las tablas para Usuario, Operario y Soporte
 CREATE TABLE Usuario (
 id_usuario INT PRIMARY KEY AUTO_INCREMENT,
